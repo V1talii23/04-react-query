@@ -7,7 +7,7 @@ interface MovieHttpResponse {
 }
 
 const moviesInstance = axios.create({
-  baseURL: 'https://api.themoviedb.org/3/search/movie?',
+  baseURL: 'https://api.themoviedb.org/3/search',
   headers: {
     Authorization: `Bearer ${API_TOKEN}`,
   },
